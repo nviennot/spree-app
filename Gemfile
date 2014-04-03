@@ -45,3 +45,4 @@ gem 'jquery-rails'
 # gem 'debugger', group: [:development, :test]
 gem 'promiscuous', github: 'nviennot/promiscuous', branch: 'master'
 gem 'pg'
+gem 'pry'
