@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/nviennot/promiscuous.git
-  revision: ba4e6e74e3fc6661cae448cd31ab83fa5ec9fc5d
+  revision: 4b554c0c2804ad49ac80bb5b4b024b38bdcc07aa
   branch: master
   specs:
     promiscuous (0.91.0)
@@ -70,6 +70,7 @@ GEM
     mime-types (1.25.1)
     minitest (4.7.5)
     multi_json (1.8.4)
+    pg (0.17.1)
     polyglot (0.3.4)
     rack (1.5.2)
     rack-test (0.6.2)
@@ -123,6 +124,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
   jquery-rails
+  pg
   promiscuous!
   rails (= 4.0.4)
   sass-rails (~> 4.0.2)
