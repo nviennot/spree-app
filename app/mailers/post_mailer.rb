@@ -1,8 +1,9 @@
 class PostMailer < ActionMailer::Base
-  default from: "from@example.com"
-
-  def post_email(post)
+  def share_post_with_friends(post)
     @post = post
-    binding.pry
+    @author = post.author.owner
+    mail :from    => @author.email,
+         :to      => @post.recipients.map(&:email),
+         :subject => "#{@author.username} shared a photo"
   end
 end

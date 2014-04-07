@@ -1,0 +1,10 @@
+!!!
+%html
+  %head
+    %meta{content: 'text/html; charset=utf8'}
+  %body
+    %h3 #{@author.username}: #{@post.text}
+    - @post.photos.each do |photo|
+      %p
+        %img{src: photo.url}
+

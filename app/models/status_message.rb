@@ -1,2 +1,1 @@
-class StatusMessage < Post
-end
+class StatusMessage < Post; end

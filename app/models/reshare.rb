@@ -1,2 +1,1 @@
-class Reshare < Post
-end
+class Reshare < Post; end
