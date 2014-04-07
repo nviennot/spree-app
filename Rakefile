@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-DiasporaEmail::Application.load_tasks
+DiasporaTopic::Application.load_tasks

@@ -10,4 +10,4 @@ development:
   username: postgres
   password:
   encoding: unicode
-  database: diaspora_email_development
+  database: diaspora_topic_development
