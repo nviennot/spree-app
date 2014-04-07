@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140403194600) do
+ActiveRecord::Schema.define(version: 20140407070919) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -86,6 +86,8 @@ ActiveRecord::Schema.define(version: 20140403194600) do
     t.text     "text"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "sentiment"
+    t.text     "concepts"
   end
 
   create_table "share_visibilities", force: true do |t|
@@ -103,6 +105,7 @@ ActiveRecord::Schema.define(version: 20140403194600) do
     t.datetime "current_sign_in_at"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.text     "topics"
   end
 
 end

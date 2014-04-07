@@ -51,3 +51,7 @@ group :development do
   gem 'pry'
   gem 'letter_opener'
 end
+
+gem 'faraday'
+gem 'faraday_middleware'
+gem 'net-http-persistent'

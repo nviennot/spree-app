@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/nviennot/promiscuous.git
-  revision: e4c708261912170b1a2d4cb4c221c79369044b10
+  revision: 09dd931ff4c141b52074e478fbcdbfe925789154
   branch: master
   specs:
     promiscuous (0.91.0)
@@ -58,6 +58,10 @@ GEM
     coffee-script-source (1.7.0)
     erubis (2.7.0)
     execjs (2.0.2)
+    faraday (0.8.9)
+      multipart-post (~> 1.2.0)
+    faraday_middleware (0.9.0)
+      faraday (>= 0.7.4, < 0.9)
     fnv (0.2.0)
     haml (4.0.2)
       tilt
@@ -78,6 +82,8 @@ GEM
     mime-types (1.25.1)
     minitest (4.7.5)
     multi_json (1.8.4)
+    multipart-post (1.2.0)
+    net-http-persistent (2.9.4)
     pg (0.17.1)
     polyglot (0.3.4)
     pry (0.9.12.6)
@@ -135,9 +141,12 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
+  faraday
+  faraday_middleware
   haml
   jquery-rails
   letter_opener
+  net-http-persistent
   pg
   promiscuous!
   pry
