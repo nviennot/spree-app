@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-DiasporaTopic::Application.load_tasks
+SpreeApp::Application.load_tasks

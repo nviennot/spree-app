@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-DiasporaTopic::Application.config.secret_key_base = '7db75f59a50ae3eb8a9480bd494859774e076a631ff6080d0c09851d8107f78c3ea3b8b7b49f621d6798abe0045bdaecc35d5fa3a0901f801d8a0585530483fe'
+SpreeApp::Application.config.secret_key_base = '7db75f59a50ae3eb8a9480bd494859774e076a631ff6080d0c09851d8107f78c3ea3b8b7b49f621d6798abe0045bdaecc35d5fa3a0901f801d8a0585530483fe'

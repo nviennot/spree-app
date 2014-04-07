@@ -10,4 +10,4 @@ development:
   username: postgres
   password:
   encoding: unicode
-  database: diaspora_topic_development
+  database: spree_app_development
