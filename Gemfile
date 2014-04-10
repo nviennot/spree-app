@@ -51,3 +51,4 @@ group :development do
 end
 
 gem 'spree', github: 'nviennot/spree', branch: 'master'
+gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: 'master'
