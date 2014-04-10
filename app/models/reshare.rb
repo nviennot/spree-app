@@ -1,1 +1,0 @@
-class Reshare < Post; end
