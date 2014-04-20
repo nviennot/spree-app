@@ -43,7 +43,6 @@ gem 'jquery-rails'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-gem 'promiscuous', github: 'nviennot/promiscuous', branch: 'master'
 gem 'pg'
 
 group :development do
@@ -52,3 +51,5 @@ end
 
 gem 'spree', github: 'nviennot/spree', branch: 'master'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: 'master'
+
+gem 'promiscuous', github: 'nviennot/promiscuous', branch: 'master'
